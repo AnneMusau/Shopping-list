@@ -1,0 +1,16 @@
+html, body{
+    min-height: 100%;
+    height: 100%;
+}
+body{
+
+    background-image: url('Facial Products.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: green;
+}
+h1{
+    font-size: 2em;
+    font-style: normal;
+    text-align: center;
+}

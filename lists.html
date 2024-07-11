@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet"href="list.css">
+    <style>
+        body{
+            background:url('Facial Products.jpg');
+            background-size:cover;
+            background-position:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>shoppingList</h1>
+    <div class="shopping_container">
+    <form id="inputForm">
+        <input type="text" id="newItem" placeholder="Add new item" required>
+        <button type="submit">Add</button>
+        <button type="button" id="resetButton">Reset</button>
+    </form>
+    <ul id="shoppingList">
+        <li>Laroche face serum</li>
+        <li>charcoal mask</li>
+        <li>salt sacrub</li>
+        <li>sugar scrub</li>
+    </ul>
+    </div>
+    <script src="lists.js"></script>
+    </body>
+</html>
